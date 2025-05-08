@@ -21,7 +21,6 @@ export default function DashboardContent() {
     totalClicks: 0,
     avgEarningsPerClick: 0,
   })
-  const [recentActivity, setRecentActivity] = useState<{ shortUrl: string; earnings: number }[]>([])
   const [formData, setFormData] = useState({
     url: "",
     customSlug: "",

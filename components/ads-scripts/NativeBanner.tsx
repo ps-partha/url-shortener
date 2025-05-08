@@ -7,7 +7,7 @@ const NativeBannerAd = () => {
     const script = document.createElement("script");
     script.async = true;
     script.setAttribute("data-cfasync", "false");
-    script.src = "//pl24616033.profitableratecpm.com/efd5bce8dc63414691d97134d1b2d3de/invoke.js";
+    script.src = ""; // your ads url
 
     document.body.appendChild(script);
 

@@ -4,6 +4,7 @@ import { NextResponse } from "next/server"
 import { authOptions } from "@/app/api/auth/[...nextauth]/route"
 import prisma from "@/lib/prisma"
 import { generateSlug } from "@/lib/utils"
+import slugify from 'slugify';
 
 export async function GET() {
   const session = await getServerSession(authOptions)
@@ -45,7 +46,12 @@ export async function POST(request: Request) {
     }
 
     // Generate a short URL or use custom one
-    const shortUrl = body.customSlug || generateSlug()
+    
+
+const shortUrl = body.customSlug
+  ? slugify(body.customSlug, { lower: true, strict: true })
+  : generateSlug();
+
 
     // Check if slug already exists
     const existingUrl = await prisma.url.findUnique({

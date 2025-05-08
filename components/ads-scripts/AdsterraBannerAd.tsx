@@ -10,7 +10,7 @@ const AdsterraBannerAd = () => {
 
     const script = document.createElement('script');
     script.type = 'text/javascript';
-    script.src = '//www.profitabledisplaynetwork.com/d1323160bbce67192fa7b785047dae81/invoke.js'; // <-- এই URL আপনার Adsterra কোড থেকে নিন
+    script.src = ''; // <-- এই URL আপনার Adsterra কোড থেকে নিন
     script.async = true;
 
     adRef.current.innerHTML = ''; // Clear any previous ad

@@ -2,9 +2,9 @@ import HilltopAdUnit from './HilltopAdUnit';
 
 const AdGrid = () => {
   const adUrls = [
-    '//frequentday.com/b/XQVos.d/GplF0/YEW/cK/xeOmF9auRZ_U/lmk-PDTZYIwdMVjLcW2xNODigBtlNqjjAYyANRzhYe0ROvQj', // Ad 1
-    '//frequentday.com/b.X/VUsBdWG_la0fYIWycA/Jekmx9sujZSUDlMkOPQTZYrwBMvjJct2ZNtzDQNt/NkjpA/ypNNzTYZ3/NgQN', // Ad 2 (Example)
-    '//frequentday.com/b.XAVzs-dMGkl/0oYEWgcK/seUme9du/ZuUWlJkhPFT/YgwlNVDrICzuOXTTApt/NvjkAB0uMPj_MC5PM/Qi', // Ad 3 (Example)
+    '', // Ad 1
+    '', // Ad 2 (Example)
+    '', // Ad 3 (Example)
   ];
 
   return (

@@ -5,8 +5,8 @@ const PopunderAd = () => {
   useEffect(() => {
     // Array containing the two Popunder script URLs
     const popunderScripts = [
-      '//whopping-click.com/c-DG9.6/b/2m5/lOShW/QU9rNxj/Mpz_NrTKQY3mM-iq0C2/MezuM/1CNRDGcTzw',
-      '//pl26593028.profitableratecpm.com/40/d1/9a/40d19afa2c49f8968228cb3f1a55add1.js'
+      '',
+      ''
     ];
 
     // Randomly select one of the URLs
